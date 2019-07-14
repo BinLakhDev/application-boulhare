@@ -1,0 +1,64 @@
+entity ClientInstantane{
+nom String required,
+phone String required,
+date Instant,
+}
+
+entity Numero{
+numero String required,
+statuts Status
+}
+
+entity Utilisateur{
+fullname String required,
+username String required,
+password String required,
+logo ImageBlob required,
+iban String required,
+numero String required,
+email String
+}
+entity Banque{
+nameBanque String required,
+adresseSiege String,
+telSiege String,
+codeBanque String,
+logo ImageBlob required
+}
+entity Agence{
+codeAgence String required,
+longitude String required,
+latitude String required,
+adresseAgence String required,
+telSiege String required
+}
+
+enum Status{
+UTILISER,
+NONUTILUSER,
+DEPASSER,
+ANNULER
+}
+
+
+relationship OneToOne {
+ Utilisateur{Agence} to Agence
+ Utilisateur{User(email)} to User
+ 
+}
+relationship ManyToOne {
+ ClientInstantane{Agence(codeAgence)} to Agence
+ Agence{Banque(nameBanque)} to Banque
+ Numero{Agence} to Agence
+ Numero{Utilisateur(fullname)} to Utilisateur
+ Numero{ClientInstantane} to ClientInstantane
+}
+
+paginate * with pagination
+dto * with mapstruct
+service all with serviceImpl
+filter ClientInstantane
+filter Numero
+filter Utilisateur
+filter Banque
+filter Agence

@@ -1,0 +1,25 @@
+{
+  "boulhareApp": {
+    "numero": {
+      "home": {
+        "title": "Numeros",
+        "createLabel": "Créer un nouveau Numero",
+        "createOrEditLabel": "Créer ou éditer un Numero"
+      },
+      "created": "Un nouveau Numero a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Numero avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Numero avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Numero {{ id }} ?"
+      },
+      "detail": {
+        "title": "Numero"
+      },
+      "numero": "Numero",
+      "statuts": "Statuts",
+      "agence": "Agence",
+      "utilisateur": "Utilisateur",
+      "clientInstantane": "Client Instantane"
+    }
+  }
+}

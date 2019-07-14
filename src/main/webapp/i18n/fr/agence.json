@@ -1,0 +1,26 @@
+{
+  "boulhareApp": {
+    "agence": {
+      "home": {
+        "title": "Agences",
+        "createLabel": "Créer un nouveau Agence",
+        "createOrEditLabel": "Créer ou éditer un Agence"
+      },
+      "created": "Un nouveau Agence a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Agence avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Agence avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Agence {{ id }} ?"
+      },
+      "detail": {
+        "title": "Agence"
+      },
+      "codeAgence": "Code Agence",
+      "longitude": "Longitude",
+      "latitude": "Latitude",
+      "adresseAgence": "Adresse Agence",
+      "telSiege": "Tel Siege",
+      "banque": "Banque"
+    }
+  }
+}

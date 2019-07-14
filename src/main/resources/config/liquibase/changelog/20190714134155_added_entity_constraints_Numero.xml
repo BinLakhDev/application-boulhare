@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <!--
+        Added the constraints for entity Numero.
+    -->
+    <changeSet id="20190714134155-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="agence_id"
+                                 baseTableName="numero"
+                                 constraintName="fk_numero_agence_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="agence"/>
+
+        <addForeignKeyConstraint baseColumnNames="utilisateur_id"
+                                 baseTableName="numero"
+                                 constraintName="fk_numero_utilisateur_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="utilisateur"/>
+
+        <addForeignKeyConstraint baseColumnNames="client_instantane_id"
+                                 baseTableName="numero"
+                                 constraintName="fk_numero_client_instantane_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="client_instantane"/>
+
+    </changeSet>
+</databaseChangeLog>

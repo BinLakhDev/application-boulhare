@@ -1,0 +1,49 @@
+{
+    "name": "Numero",
+    "fields": [
+        {
+            "fieldName": "numero",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "statuts",
+            "fieldType": "Status",
+            "fieldValues": "UTILISER,NONUTILUSER,DEPASSER,ANNULER"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "agence",
+            "otherEntityRelationshipName": "numero",
+            "relationshipName": "agence",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "utilisateur",
+            "otherEntityRelationshipName": "numero",
+            "relationshipName": "utilisateur",
+            "otherEntityField": "fullname"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "clientInstantane",
+            "otherEntityRelationshipName": "numero",
+            "relationshipName": "clientInstantane",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20190714134155",
+    "entityTableName": "numero",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": true,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

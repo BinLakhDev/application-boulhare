@@ -1,0 +1,41 @@
+{
+    "name": "ClientInstantane",
+    "fields": [
+        {
+            "fieldName": "nom",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "phone",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "date",
+            "fieldType": "Instant"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "agence",
+            "otherEntityRelationshipName": "clientInstantane",
+            "relationshipName": "agence",
+            "otherEntityField": "codeAgence"
+        }
+    ],
+    "changelogDate": "20190714134154",
+    "entityTableName": "client_instantane",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": true,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

@@ -1,0 +1,11 @@
+{
+  "boulhareApp": {
+    "Status": {
+      "null": "",
+      "UTILISER": "UTILISER",
+      "NONUTILUSER": "NONUTILUSER",
+      "DEPASSER": "DEPASSER",
+      "ANNULER": "ANNULER"
+    }
+  }
+}

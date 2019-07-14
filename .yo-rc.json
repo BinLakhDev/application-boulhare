@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.boulhare.backend",
+      "nativeLanguage": "fr"
+    },
+    "jhipsterVersion": "5.8.2",
+    "applicationType": "monolith",
+    "baseName": "boulhare",
+    "packageName": "com.boulhare.backend",
+    "packageFolder": "com/boulhare/backend",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "YzA1MGExMjU2YzIxOTVlODhlMmY0NTNkMjAxOTZiYTI0Y2JmMzE1OWU4Yjc2ZDc0NjNhMDRlYWI3NWIxYjYxZTljYWNhNzQ2NWU3YjA0ZDE2YmFkOTIzNjk0M2QyOGZlNWRkNzQzYmIwNTc4MDBjMTk5MTMxNjI1YTA4YmQyNzM=",
+    "clientFramework": "react",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "fr",
+    "languages": ["fr"]
+  }
+}

@@ -1,0 +1,42 @@
+{
+    "name": "Banque",
+    "fields": [
+        {
+            "fieldName": "nameBanque",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "adresseSiege",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "telSiege",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "codeBanque",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "logo",
+            "fieldType": "byte[]",
+            "fieldTypeBlobContent": "image",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20190714134157",
+    "entityTableName": "banque",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": true,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

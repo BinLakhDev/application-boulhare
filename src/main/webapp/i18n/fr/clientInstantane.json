@@ -1,0 +1,24 @@
+{
+  "boulhareApp": {
+    "clientInstantane": {
+      "home": {
+        "title": "ClientInstantanes",
+        "createLabel": "Créer un nouveau Client Instantane",
+        "createOrEditLabel": "Créer ou éditer un Client Instantane"
+      },
+      "created": "Un nouveau Client Instantane a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Client Instantane avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Client Instantane avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Client Instantane {{ id }} ?"
+      },
+      "detail": {
+        "title": "Client Instantane"
+      },
+      "nom": "Nom",
+      "phone": "Phone",
+      "date": "Date",
+      "agence": "Agence"
+    }
+  }
+}

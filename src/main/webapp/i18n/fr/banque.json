@@ -1,0 +1,25 @@
+{
+  "boulhareApp": {
+    "banque": {
+      "home": {
+        "title": "Banques",
+        "createLabel": "Créer un nouveau Banque",
+        "createOrEditLabel": "Créer ou éditer un Banque"
+      },
+      "created": "Un nouveau Banque a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Banque avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Banque avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Banque {{ id }} ?"
+      },
+      "detail": {
+        "title": "Banque"
+      },
+      "nameBanque": "Name Banque",
+      "adresseSiege": "Adresse Siege",
+      "telSiege": "Tel Siege",
+      "codeBanque": "Code Banque",
+      "logo": "Logo"
+    }
+  }
+}

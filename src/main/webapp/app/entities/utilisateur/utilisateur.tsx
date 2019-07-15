@@ -70,7 +70,7 @@ export class Utilisateur extends React.Component<IUtilisateurProps, IUtilisateur
           </Link>
         </h2>
         <div className="table-responsive">
-          <Table responsive striped hover>
+          <Table responsive striped hover>r
             <thead>
               <tr>
                 <th className="hand" onClick={this.sort('id')}>
